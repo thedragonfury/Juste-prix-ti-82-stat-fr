@@ -1,0 +1,16 @@
+Programm:jUSTEPRI
+Disp "PRIX ENTRE 0 ET"
+ent(NbrAléatM->P
+1->B
+EffEcr
+Repeat J=P
+Disp "JUSTE PRIX
+Input J
+If J>P
+Disp "PLUS PETIT
+If J<P
+Disp "PLUS GRAND
+B+1->B   
+End
+Disp "JUSTE PRIX",P
+Disp "COUPS",B
